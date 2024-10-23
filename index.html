@@ -35,10 +35,10 @@
     <br><br>
 
     <label for="Номер картки">Номер картки</label>
-    <input id="Номер картки" placeholder="Номер картки" type="text">
+    <input id="Номер картки" min="0" maxlength="16" placeholder="Номер картки" type="number">
     <br><br>
     <label for="CVC">CVC</label>
-    <input id="CVC" placeholder="CVC" type="text">
+    <input id="CVC" placeholder="CVC" min="0" maxlength="3" type="number">
     <label for="month">Місяць:</label>
         <select id="month" name="month">
             <option value="01">01</option>
@@ -80,6 +80,10 @@
         <input type="radio" name="Жабка" id="Мандрівна">
 
         <br><br>
+        <label for="Колір очей">Колір очей</label>
+    <input id="Колір очей" placeholder="Колір очей" type="text">
+         <br><br>
+        
 
         <button>Передати всі гроші шахраям</button>
 </form>
